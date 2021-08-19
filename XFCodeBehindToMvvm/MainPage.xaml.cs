@@ -13,6 +13,7 @@ namespace XFCodeBehindToMvvm
         public MainPage()
         {
             InitializeComponent();
+            BindingContext = new MainPageModel();
         }
     }
 }
